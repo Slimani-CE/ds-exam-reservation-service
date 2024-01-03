@@ -14,6 +14,8 @@ public class ReservationMapper {
                 .context(reservationRequestDTO.getContext())
                 .createdAt(reservationRequestDTO.getCreatedAt())
                 .duration(reservationRequestDTO.getDuration())
+                .resourceId(reservationRequestDTO.getResourceId())
+                .userId(reservationRequestDTO.getUserId())
                 .build();
     }
 
@@ -24,6 +26,8 @@ public class ReservationMapper {
                 .context(savedReservation.getContext())
                 .createdAt(savedReservation.getCreatedAt())
                 .duration(savedReservation.getDuration())
+                .resourceId(savedReservation.getResourceId())
+                .userId(savedReservation.getUserId())
                 .build();
     }
 }

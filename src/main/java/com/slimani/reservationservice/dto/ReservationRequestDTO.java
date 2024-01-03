@@ -13,4 +13,6 @@ public class ReservationRequestDTO {
     private String context;
     private Date createdAt;
     private Duration duration;
+    private String resourceId;
+    private String userId;
 }
